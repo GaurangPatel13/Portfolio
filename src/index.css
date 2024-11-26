@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+[data-scroll-container] {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  [data-scroll] {
+    will-change: transform;
+  }
+  
+  html {
+    scroll-behavior: auto; /* Disable default scroll-behavior for custom scroll */
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+.custom-cursor {
+    mix-blend-mode: difference;
+  }
+  
+  .sarina-regular {
+    font-family: "Sarina", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
