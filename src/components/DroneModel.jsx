@@ -4,7 +4,7 @@ import { Canvas, useThree } from "@react-three/fiber";
 import { Vector3, MathUtils } from "three";
 
 const DroneModel = ({ cursorPosition }) => {
-  const { scene, loading, error } = useGLTF("/Models/buster_drone.glb");
+  const { scene, loading, error } = useGLTF("Models/buster_drone.glb");
   const groupRef = useRef();
   const { camera } = useThree(); // Get the camera from the context
 

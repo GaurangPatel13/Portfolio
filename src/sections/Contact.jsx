@@ -107,7 +107,7 @@ const Contact = () => {
             transition={{ duration: 1, delay: 0.6 }}
           >
             <motion.img
-              src="./src/Assets/Images/contact.png"
+              src="Images/contact.png"
               alt="Animated Visual"
               className="w-72 h-72 mx-auto rounded-lg"
               whileHover={{ scale: 1.1 }}

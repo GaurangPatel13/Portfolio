@@ -17,7 +17,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="./src/Assets/Images/myprofilepic.jpg"
+            src="Images/myprofilepic.jpg"
             alt="Gaurang Patel"
             className="w-full h-full object-cover"
           />
